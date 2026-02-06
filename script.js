@@ -1,5 +1,4 @@
 //your JS code here. If required.
-function changeText()(){
-	document.getElementById(text).textContent="Entered Metaverse";
-}
-
+document.getElementById("enterBtn").addEventListener("click", function () {
+  document.getElementById("text").innerHTML = "<h1>Entered Metaverse</h1>";
+});
